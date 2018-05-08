@@ -32,4 +32,4 @@ cwv.show = function(page){
 	document.getElementsByClassName("newpage")[0].className = "showpage viewer";
 }
 
-window.onhashchange = cwv.movePagebyHash;
+window.onhashchange = function(){cwv.movePagebyHash();};
