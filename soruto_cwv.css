@@ -7,7 +7,7 @@
 .showpage{
 	position:absolute;
 	top:10px;
-	left:10px;
+	left:10px!important;
 	z-index:1
 }
 .viewer{
