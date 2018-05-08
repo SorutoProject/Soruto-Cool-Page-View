@@ -26,10 +26,12 @@ cwv.show = function(page){
 	newdiv.className = "newpage viewer";
 	newdiv.innerHTML = page;
 	document.body.appendChild(newdiv);
+	window.setTimeout(function(){
 	if(document.getElementsByClassName("showpage")[0]){
 		document.body.removeChild(document.getElementsByClassName("showpage")[0]); 
 	}
 	document.getElementsByClassName("newpage")[0].className = "showpage viewer";
+	},500);
 }
 
 window.onhashchange = function(){cwv.movePagebyHash();};
