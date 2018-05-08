@@ -24,6 +24,7 @@ cwv.movePagebyHash = function(){
 cwv.show = function(page){
 	var newdiv = document.createElement("div");
 	newdiv.className = "newpage viewer";
+	newdiv.innerHTML = page;
 	document.body.appendChild(newdiv);
 	if(document.getElementsByClassName("showpage")[0]){
 		document.body.removeChild(document.getElementsByClassName("showpage")[0]); 
