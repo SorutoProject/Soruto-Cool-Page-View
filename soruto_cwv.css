@@ -1,5 +1,6 @@
 .newpage{
 	position:absolute;
+	left:-10000px;
 	top:0px;
 	transition: 0.6s ease-in-out;
 	z-index:2;
@@ -7,7 +8,7 @@
 .showpage{
 	position:absolute;
 	top:0px;
-	left:0px!important;;
+	left:0px!important;
 	z-index:1;
 	background:#fefefe
 }
