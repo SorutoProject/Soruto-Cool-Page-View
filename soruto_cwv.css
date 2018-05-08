@@ -1,0 +1,13 @@
+.newpage{
+	position:absolute;
+	top:10px;
+	transition: 0.6s ease-in-out;
+}
+.showpage{
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+.viewer{
+	overflow:auto;
+}
